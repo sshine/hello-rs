@@ -26,6 +26,10 @@ cargo test --all-targets
 
 *(This section won't occur when using this template.)*
 
+`cargo generate` is a powerful alternative to the built-in `cargo new`:
+
+![demo.gif](https://github.com/cargo-generate/cargo-generate/raw/main/demo.gif)
+
 To install `cargo generate`, run:
 
 ```sh
@@ -52,5 +56,10 @@ Add your `github-username` to ~/.cargo/cargo-generate.toml:
 [values]
 github-username = "sshine"
 ```
+
+Read more about `cargo generate` here:
+
+- https://github.com/cargo-generate/cargo-generate
+- https://cargo-generate.github.io/cargo-generate/index.html
 
 {% endif %}
