@@ -30,6 +30,8 @@ cargo test --all-targets
 
 ![demo.gif](https://github.com/cargo-generate/cargo-generate/raw/main/demo.gif)
 
+### Usage
+
 To install `cargo generate`, run:
 
 ```sh
@@ -42,6 +44,8 @@ Create new template, either from GitHub, or from a local path:
 cargo generate --git https://github.com/sshine/workspace-template
 cargo generate --path $HOME/Projects/workspace-template
 ```
+
+### Config
 
 Create a `cargo gen` shortcut by adding a section to ~/.cargo/config.toml:
 
@@ -56,6 +60,8 @@ Add your `github-username` to ~/.cargo/cargo-generate.toml:
 [values]
 github-username = "sshine"
 ```
+
+### Learn
 
 Read more about `cargo generate` here:
 
